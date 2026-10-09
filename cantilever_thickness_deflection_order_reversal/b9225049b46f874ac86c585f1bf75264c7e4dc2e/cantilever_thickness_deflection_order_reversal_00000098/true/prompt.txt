@@ -1,0 +1,1 @@
+Two cantilevers of equal length, width and material, but different thicknesses, carry equal tip weights. Identical support plungers descend and transfer the loads to the clamped beams. Both beams bend downward and settle; the thicker beam bends less than the thinner beam.

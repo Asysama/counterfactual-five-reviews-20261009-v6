@@ -1,0 +1,38 @@
+{
+  "attempt_budget": 2,
+  "commit": "7afda3394dfd1ccc6e85837eacda75a04ff3b9f8",
+  "contract": "CGC-v1",
+  "dependencies": "c9ed8ae7b103e584592d41d589ec2ca9da229cfe22576da0d50236925167d09d",
+  "generator": "locked_lead_screw_nut_axial_drift",
+  "num_shards": 1,
+  "profile_version": "five-independent-axes-v1",
+  "quota": 2,
+  "render": [
+    2048,
+    24,
+    120
+  ],
+  "seed": 42,
+  "seeds": "42,98",
+  "shard_id": 0,
+  "source": {
+    "engine/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "engine/geometry.py": "a46d2c837a0b13d35fc75534324873befbae1ba6ff331608d2ed96909ef36165",
+    "engine/media.py": "46dd6adb824154d94efd1a9d5df6de95e19aab5775450d349ff3598ddbf3da06",
+    "engine/run.py": "84514bb2bf96afbdf4997435c76a2cf382b7e5ba74800c36fb0c91cfe164db99",
+    "engine/spec.py": "3198156d0ec427bbeadd417666af1f887b06de76ad25df985ecc6d172708c931",
+    "examples/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "examples/audit.py": "f4ae973cfd680d8ffb7d0a5b6f35850936311f39f66782044937b081c7295dd1",
+    "examples/audit_scaling.py": "db2d7ea12040139f9e683e08f04bf050e2e668e66270fb9a428e0d9c3cee8764",
+    "examples/compare.py": "48aaf22fee1a2349eb3ee8d389ab8a087905de3ab2381a30b0f5dd4617f2faab",
+    "examples/generate.py": "54bdd46c694897f0f16024b199be8f2218dd2792b8e2fa8154def9ac2e49e66a",
+    "examples/probe_axes.py": "f0467f2ae76f4f8e79d5dd0d6ba01c4565962a4a4515a00ac4596589eb4211b7",
+    "examples/reproduce.py": "fd8e158ec5093b718b3a9552d4c01b88d62ab38634df6f1af341673f909f2f69",
+    "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/phenomenon.py": "88bdac2a1f6e3fba7daabec20d5a77b3dba9a5ba6e893fff32e5fed1f3f7fcea",
+    "src/scaling.py": "cc8a3b4603176bcd69e725b783d489b7b8142997b4644c3c3b4a62d2b1cd7b3b",
+    "src/violation.py": "6c6e36e673535646e41e016f18122a80107c6dd38a576ff7240814559d9f2337",
+    "tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tests/test_physics.py": "da724593b7c456312cd1390942efb0064a2438b2c85d514144060c18a02c8b42"
+  }
+}

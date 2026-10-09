@@ -1,0 +1,15 @@
+{
+  "codec": "H264/yuv420p",
+  "files": {
+    "counterfactual_negative_tensile_geometric_stiffness/mask_browser.mp4": "f078b1c77fc54377ae48d9fc8cb013667482379c370fcb74529c6f98170e2de7",
+    "counterfactual_negative_tensile_geometric_stiffness/mask_overlay_browser.mp4": "5bc14f25ea6b27db7441294c8fa4e0b6cb141ce31ba5472ce9130d995892346a",
+    "counterfactual_negative_tensile_geometric_stiffness/video_browser.mp4": "b24ef9f2f6ce1567e313fab9be4562b18b0cb7d3cca9cd46f9895cf12564fb04",
+    "true/video_browser.mp4": "1900b859c61ba24083878528f523c6f9bfa81fa097ee66c0c1eca60f1138760e"
+  },
+  "formal_pixel_audit": false,
+  "lossy": true,
+  "resolution": [
+    1024,
+    1024
+  ]
+}

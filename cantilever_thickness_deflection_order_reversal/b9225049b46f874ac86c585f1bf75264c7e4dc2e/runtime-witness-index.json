@@ -1,0 +1,28 @@
+{
+  "schema_version": "counterfactual-runtime-witness-index-v1",
+  "pass": true,
+  "witness_count": 1,
+  "case_count": 2,
+  "witnesses": {
+    "85050a4fba97cf985f79621e63a7d9eba2eee83ef782b3df3b7274d706a1df7d": {
+      "path": "runtime-witness.json",
+      "sha256": "85050a4fba97cf985f79621e63a7d9eba2eee83ef782b3df3b7274d706a1df7d",
+      "generator": "cantilever_thickness_deflection_order_reversal",
+      "case_set": "seeds42,98",
+      "source_commit": "b9225049b46f874ac86c585f1bf75264c7e4dc2e"
+    }
+  },
+  "cases": {
+    "cantilever_thickness_deflection_order_reversal_00000042": {
+      "witness_id": "85050a4fba97cf985f79621e63a7d9eba2eee83ef782b3df3b7274d706a1df7d",
+      "metadata_path": "cantilever_thickness_deflection_order_reversal_00000042/metadata.json",
+      "metadata_sha256": "1f84677bba5b2049fd02d6073330827293a17b27f6f3444a47122ed8fb123d8c"
+    },
+    "cantilever_thickness_deflection_order_reversal_00000098": {
+      "witness_id": "85050a4fba97cf985f79621e63a7d9eba2eee83ef782b3df3b7274d706a1df7d",
+      "metadata_path": "cantilever_thickness_deflection_order_reversal_00000098/metadata.json",
+      "metadata_sha256": "9c23dbdebc3f971e8b45032320c3e80df60a79d85725246c73c3a9338ef5b82f"
+    }
+  },
+  "failures": []
+}

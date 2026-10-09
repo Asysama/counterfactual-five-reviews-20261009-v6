@@ -1,0 +1,128 @@
+{
+  "camera": {
+    "lens_mm": 48,
+    "lookat": [
+      0.0,
+      0.0,
+      1.5
+    ],
+    "pos": [
+      -0.36367711424827576,
+      -6.514999866485596,
+      3.9756999015808105
+    ],
+    "projection": "perspective"
+  },
+  "category": "cantilever_thickness",
+  "descriptions": {
+    "counterfactual": "Two cantilevers of equal length, width and material, but different thicknesses, carry equal tip weights. Identical support plungers descend and transfer the loads to the clamped beams. Both beams bend downward and settle, but the thicker beam bends farther down than the thinner beam despite its greater bending stiffness.",
+    "true": "Two cantilevers of equal length, width and material, but different thicknesses, carry equal tip weights. Identical support plungers descend and transfer the loads to the clamped beams. Both beams bend downward and settle; the thicker beam bends less than the thinner beam."
+  },
+  "evidence_frame": 53,
+  "first_changed_frame": 32,
+  "generation": {
+    "bpy_version": "4.5.3 LTS",
+    "engine": "Blender Workbench analytical replay",
+    "git": "b9225049b46f874ac86c585f1bf75264c7e4dc2e",
+    "source_hashes": {
+      "engine/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "engine/geometry.py": "757cf34a783f75c3d17b30f804284b95a8e32fcf1a280c166e8c69eb1560342c",
+      "engine/media.py": "46dd6adb824154d94efd1a9d5df6de95e19aab5775450d349ff3598ddbf3da06",
+      "engine/run.py": "14648c31930e3f3029a4c9902d8dbc3eba47eb691843ebddce3e7dfe29fee095",
+      "engine/spec.py": "3198156d0ec427bbeadd417666af1f887b06de76ad25df985ecc6d172708c931",
+      "examples/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "examples/audit.py": "f4ae973cfd680d8ffb7d0a5b6f35850936311f39f66782044937b081c7295dd1",
+      "examples/audit_scaling.py": "db2d7ea12040139f9e683e08f04bf050e2e668e66270fb9a428e0d9c3cee8764",
+      "examples/compare.py": "48aaf22fee1a2349eb3ee8d389ab8a087905de3ab2381a30b0f5dd4617f2faab",
+      "examples/generate.py": "54bdd46c694897f0f16024b199be8f2218dd2792b8e2fa8154def9ac2e49e66a",
+      "examples/probe_axes.py": "be4fb7fc8fb5c84546642db4c577189c71166ed1c69fdd322c6c9a492d32723d",
+      "examples/reproduce.py": "fd8e158ec5093b718b3a9552d4c01b88d62ab38634df6f1af341673f909f2f69",
+      "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/phenomenon.py": "d26afd955b71d9f8ac0fd7911fce4a641a9045ac08c24e7c8e636a8ab863bc2d",
+      "src/scaling.py": "185ee1d66de0a7db3bc0e6241b731dedf847501247559f651afd5bf095b94415",
+      "src/violation.py": "8e1df0c0d4cfd61af0d3c98a4462ad54f9b9472112850f6947ec714b904294c1",
+      "tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tests/test_physics.py": "da724593b7c456312cd1390942efb0064a2438b2c85d514144060c18a02c8b42"
+    }
+  },
+  "intervention_frame": 32,
+  "mask_end_frame": 120,
+  "mask_spec": {
+    "encoding": "h264-libx264rgb-crf0-rgb24-decoded-verified",
+    "include_target_shadow": false,
+    "source": "Blender depth-occluded flat object identity pass",
+    "temporal_rule": "from_first_changed_frame"
+  },
+  "mask_start_frame": 32,
+  "onset_frame": 32,
+  "paths": {
+    "counterfactual": {
+      "mask": "counterfactual_thick_beam_excess_compliance/mask.mp4",
+      "mask_overlay": "counterfactual_thick_beam_excess_compliance/mask_overlay.mp4",
+      "prompt": "counterfactual_thick_beam_excess_compliance/prompt.txt",
+      "trajectory": "counterfactual_thick_beam_excess_compliance/trajectory.npz",
+      "video": "counterfactual_thick_beam_excess_compliance/video.mp4"
+    },
+    "true": {
+      "prompt": "true/prompt.txt",
+      "trajectory": "true/trajectory.npz",
+      "video": "true/video.mp4"
+    }
+  },
+  "phenomenon": "cantilever_thickness_deflection_order_reversal",
+  "phenomenon_data": {
+    "scene_params": {
+      "appearance": 7,
+      "deflection": 0.19749999999999998,
+      "detail": 1.021916483884477,
+      "gravity": 9.81,
+      "length": 4.1,
+      "mass": 1.0,
+      "onset": 31,
+      "release_duration": 2.1,
+      "response": 0.7899999999999999,
+      "thick": 0.28,
+      "thin": 0.08,
+      "view": 3,
+      "width": 0.3474516045207222,
+      "young": 76974909.38978052
+    },
+    "scoring_contract": {
+      "binary_questions": [
+        "Does the thicker beam bend less under the equal tip weights?",
+        "Does the thicker beam bend farther down than the thinner beam?"
+      ],
+      "scoring": {
+        "correct_if_true": [
+          "thicker tip deflection < thinner tip deflection"
+        ],
+        "violation_if_true": [
+          "thicker tip deflection > thinner tip deflection"
+        ]
+      },
+      "violation_types": [
+        "thick_beam_excess_compliance"
+      ]
+    }
+  },
+  "render": {
+    "antialiasing": "Workbench32_RGB_OFF_mask",
+    "duration": 5,
+    "fps": 24,
+    "n_frames": 120,
+    "native": true,
+    "res": [
+      2048,
+      2048
+    ]
+  },
+  "seed": 42,
+  "task_id": "cantilever_thickness_deflection_order_reversal_00000042",
+  "timebase": {
+    "internal_substeps": null,
+    "physical_seconds_per_video_second": 1.0,
+    "solver": "analytical",
+    "source_dt": 0.041666666666666664
+  },
+  "violation_type": "thick_beam_excess_compliance"
+}

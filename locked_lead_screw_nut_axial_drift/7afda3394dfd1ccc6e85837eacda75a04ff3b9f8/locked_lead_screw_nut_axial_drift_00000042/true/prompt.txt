@@ -1,0 +1,1 @@
+A rotating lead screw drives a threaded cutaway nut along a visible anti-rotation guide. A latch then locks the screw against rotation; the bearings hold it against axial motion. The nut advances while the screw turns, then stops and remains engaged on the locked screw.
