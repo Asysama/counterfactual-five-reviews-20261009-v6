@@ -1,0 +1,79 @@
+{
+  "generator_name": "locked_lead_screw_nut_axial_drift",
+  "head_sha": "7afda3394dfd1ccc6e85837eacda75a04ff3b9f8",
+  "streams": [
+    {
+      "error": null,
+      "expected_time": 2.4583333333333335,
+      "paused": true,
+      "readyState": 4,
+      "seeking": null,
+      "src": "https://asysama.github.io/counterfactual-five-reviews-20261009-v6/locked_lead_screw_nut_axial_drift/7afda3394dfd1ccc6e85837eacda75a04ff3b9f8/locked_lead_screw_nut_axial_drift_00000042/true/video_browser.mp4",
+      "time": 2.458333
+    },
+    {
+      "error": null,
+      "expected_time": 2.4583333333333335,
+      "paused": true,
+      "readyState": 4,
+      "seeking": null,
+      "src": "https://asysama.github.io/counterfactual-five-reviews-20261009-v6/locked_lead_screw_nut_axial_drift/7afda3394dfd1ccc6e85837eacda75a04ff3b9f8/locked_lead_screw_nut_axial_drift_00000042/counterfactual_locked_helical_coupling_axial_drift/video_browser.mp4",
+      "time": 2.458333
+    },
+    {
+      "error": null,
+      "expected_time": 2.4583333333333335,
+      "paused": true,
+      "readyState": 4,
+      "seeking": null,
+      "src": "https://asysama.github.io/counterfactual-five-reviews-20261009-v6/locked_lead_screw_nut_axial_drift/7afda3394dfd1ccc6e85837eacda75a04ff3b9f8/locked_lead_screw_nut_axial_drift_00000042/counterfactual_locked_helical_coupling_axial_drift/mask_browser.mp4",
+      "time": 2.458333
+    },
+    {
+      "error": null,
+      "expected_time": 2.4583333333333335,
+      "paused": true,
+      "readyState": 4,
+      "seeking": null,
+      "src": "https://asysama.github.io/counterfactual-five-reviews-20261009-v6/locked_lead_screw_nut_axial_drift/7afda3394dfd1ccc6e85837eacda75a04ff3b9f8/locked_lead_screw_nut_axial_drift_00000042/counterfactual_locked_helical_coupling_axial_drift/mask_overlay_browser.mp4",
+      "time": 2.458333
+    },
+    {
+      "error": null,
+      "expected_time": 2.5833333333333335,
+      "paused": true,
+      "readyState": 4,
+      "seeking": null,
+      "src": "https://asysama.github.io/counterfactual-five-reviews-20261009-v6/locked_lead_screw_nut_axial_drift/7afda3394dfd1ccc6e85837eacda75a04ff3b9f8/locked_lead_screw_nut_axial_drift_00000098/true/video_browser.mp4",
+      "time": 2.583333
+    },
+    {
+      "error": null,
+      "expected_time": 2.5833333333333335,
+      "paused": true,
+      "readyState": 4,
+      "seeking": null,
+      "src": "https://asysama.github.io/counterfactual-five-reviews-20261009-v6/locked_lead_screw_nut_axial_drift/7afda3394dfd1ccc6e85837eacda75a04ff3b9f8/locked_lead_screw_nut_axial_drift_00000098/counterfactual_locked_helical_coupling_axial_drift/video_browser.mp4",
+      "time": 2.583333
+    },
+    {
+      "error": null,
+      "expected_time": 2.5833333333333335,
+      "paused": true,
+      "readyState": 4,
+      "seeking": null,
+      "src": "https://asysama.github.io/counterfactual-five-reviews-20261009-v6/locked_lead_screw_nut_axial_drift/7afda3394dfd1ccc6e85837eacda75a04ff3b9f8/locked_lead_screw_nut_axial_drift_00000098/counterfactual_locked_helical_coupling_axial_drift/mask_browser.mp4",
+      "time": 2.583333
+    },
+    {
+      "error": null,
+      "expected_time": 2.5833333333333335,
+      "paused": true,
+      "readyState": 4,
+      "seeking": null,
+      "src": "https://asysama.github.io/counterfactual-five-reviews-20261009-v6/locked_lead_screw_nut_axial_drift/7afda3394dfd1ccc6e85837eacda75a04ff3b9f8/locked_lead_screw_nut_axial_drift_00000098/counterfactual_locked_helical_coupling_axial_drift/mask_overlay_browser.mp4",
+      "time": 2.583333
+    }
+  ],
+  "note": "Read-only browser bridge does not expose seeking; actual time/ready state and screenshot checked."
+}

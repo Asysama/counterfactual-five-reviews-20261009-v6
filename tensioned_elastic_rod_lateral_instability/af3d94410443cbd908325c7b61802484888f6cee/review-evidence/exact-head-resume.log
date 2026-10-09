@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/opt/siyuan-cf-five/source-user-v6/tensioned_elastic_rod_lateral_instability/generators/tensioned_elastic_rod_lateral_instability/examples/generate.py", line 5, in <module>
+    if __name__=='__main__':cli()
+                            ^^^^^
+  File "/opt/siyuan-cf-five/source-user-v6/tensioned_elastic_rod_lateral_instability/generators/tensioned_elastic_rod_lateral_instability/engine/run.py", line 95, in cli
+    assert a.resume and json.loads(hf.read_text())==header,'incompatible resume'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: incompatible resume
+RESUME_PASS

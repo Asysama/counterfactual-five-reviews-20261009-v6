@@ -1,0 +1,42 @@
+{
+  "generator_name": "cantilever_thickness_deflection_order_reversal",
+  "head_sha": "b9225049b46f874ac86c585f1bf75264c7e4dc2e",
+  "status": "PASS",
+  "full_clip_montages_inspected": [
+    {
+      "file": "audits/2026-10-09_native-user-v6/cantilever_thickness_deflection_order_reversal_00000042-counterfactual-montage.png",
+      "sha256": "9b012c0aa127c03984e876b8b423143551701c14021de8a4ba094cc4a5951b2e"
+    },
+    {
+      "file": "audits/2026-10-09_native-user-v6/cantilever_thickness_deflection_order_reversal_00000042-true-montage.png",
+      "sha256": "8ab5c5d3b8f1d78f8044d9f3327767709bc33b59d4727998e6235f971a2c4fc1"
+    },
+    {
+      "file": "audits/2026-10-09_native-user-v6/cantilever_thickness_deflection_order_reversal_00000098-counterfactual-montage.png",
+      "sha256": "43478ecc2fd76e3887386f67978fbc71b8c69a8676ebffdff1c4cb9b271e22d4"
+    },
+    {
+      "file": "audits/2026-10-09_native-user-v6/cantilever_thickness_deflection_order_reversal_00000098-true-montage.png",
+      "sha256": "6ae74b2ccc26d0e261dd2b940bd2efadad98c75204698aa4c1c3d9d2f0a3a89f"
+    }
+  ],
+  "native_frames_inspected": [
+    {
+      "file": "audits/2026-10-09_native-user-v6/cantilever_thickness_deflection_order_reversal_00000042-counterfactual-native90.png",
+      "sha256": "3f037c7da470c5e3f3ef4b251c8fdbb856f672adc78f37d3f7e0d83f8eb04e83"
+    },
+    {
+      "file": "audits/2026-10-09_native-user-v6/cantilever_thickness_deflection_order_reversal_00000042-true-native90.png",
+      "sha256": "c7715662833537e30ab334e0f26504288ad7f26f4bab7c02ad268237e7a08308"
+    },
+    {
+      "file": "audits/2026-10-09_native-user-v6/cantilever_thickness_deflection_order_reversal_00000098-counterfactual-native90.png",
+      "sha256": "e64ebe5e9b4104b746d4c57c6c1cf776f291ad65908c84553afe83c9c1c56f70"
+    },
+    {
+      "file": "audits/2026-10-09_native-user-v6/cantilever_thickness_deflection_order_reversal_00000098-true-native90.png",
+      "sha256": "05e84f95bf23a8da3ec51158a24238dff4135c563b215a4c5d27f2fb51f8606a"
+    }
+  ],
+  "note": "Actually viewed four 20-frame full-clip sampled montages and four native 2048\u00b2 decoded frame-90 images. Both side faces give a legible thick/thin contrast; True thick beam remains nearly straight while thin bends, CF thick bends farther. Saddles, bolt heads and equal weights maintain visible contact. Descending support plungers intentionally transfer load. No detached weight or visible target crop; browser continuous playback remains pending. Subsequently public browser full playback and original evidence plus new start/mid/end seeking verified; separate actual receipts retained."
+}

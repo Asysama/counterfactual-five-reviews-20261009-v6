@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "reports": [
+    {
+      "status": "PASS",
+      "case_id": "locked_lead_screw_nut_axial_drift_00000042",
+      "head_sha": "7afda3394dfd1ccc6e85837eacda75a04ff3b9f8",
+      "first_changed_frame": 56,
+      "mask_end_frame": 120,
+      "minimum_target_border_px": 641,
+      "physical_witnesses": {
+        "cf_drift": 0.5135,
+        "post_lock_shaft_rotation": 0,
+        "nut_rotation": 0,
+        "evidence_frame": 59
+      },
+      "all_120_frames_each_stream_audited": true,
+      "visual_inspection": "PENDING",
+      "browser_playback": "PENDING"
+    },
+    {
+      "status": "PASS",
+      "case_id": "locked_lead_screw_nut_axial_drift_00000098",
+      "head_sha": "7afda3394dfd1ccc6e85837eacda75a04ff3b9f8",
+      "first_changed_frame": 60,
+      "mask_end_frame": 120,
+      "minimum_target_border_px": 414,
+      "physical_witnesses": {
+        "cf_drift": 0.71825,
+        "post_lock_shaft_rotation": 0,
+        "nut_rotation": 0,
+        "evidence_frame": 62
+      },
+      "all_120_frames_each_stream_audited": true,
+      "visual_inspection": "PENDING",
+      "browser_playback": "PENDING"
+    }
+  ],
+  "note": "Automated results retain their original PENDING visual fields; the separate contributor review records the subsequent actual inspections."
+}

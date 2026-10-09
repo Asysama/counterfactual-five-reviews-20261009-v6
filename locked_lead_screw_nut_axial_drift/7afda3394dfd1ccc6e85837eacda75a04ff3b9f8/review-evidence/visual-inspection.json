@@ -1,0 +1,42 @@
+{
+  "generator_name": "locked_lead_screw_nut_axial_drift",
+  "head_sha": "7afda3394dfd1ccc6e85837eacda75a04ff3b9f8",
+  "status": "PASS",
+  "full_clip_montages_inspected": [
+    {
+      "file": "audits/2026-10-09_native-user-v6/locked_lead_screw_nut_axial_drift_00000042-counterfactual-montage.png",
+      "sha256": "ed4f0ccd253adfe2132df4ba10f51b098d9e05ea0ccef2603a3de3b0e0aed43e"
+    },
+    {
+      "file": "audits/2026-10-09_native-user-v6/locked_lead_screw_nut_axial_drift_00000042-true-montage.png",
+      "sha256": "f4e3fcf3ac6f36cc05835ca2a96e916bf21ca2082ebb3633e8706a818885f47c"
+    },
+    {
+      "file": "audits/2026-10-09_native-user-v6/locked_lead_screw_nut_axial_drift_00000098-counterfactual-montage.png",
+      "sha256": "973bfe7afa8d80897717813637862438d2cae24653994a112342bed421893da2"
+    },
+    {
+      "file": "audits/2026-10-09_native-user-v6/locked_lead_screw_nut_axial_drift_00000098-true-montage.png",
+      "sha256": "b2b0d5594e2863342a6bb6a8307a3fadb12c5d3d9d0b28b6909557d4efd81437"
+    }
+  ],
+  "native_frames_inspected": [
+    {
+      "file": "audits/2026-10-09_native-user-v6/locked_lead_screw_nut_axial_drift_00000042-counterfactual-native90.png",
+      "sha256": "cfce1e3c03136423aa874cc028bcbe8ef30c3ef935f04a775e6250c446663e6e"
+    },
+    {
+      "file": "audits/2026-10-09_native-user-v6/locked_lead_screw_nut_axial_drift_00000042-true-native90.png",
+      "sha256": "e0d60d3711deb62adb4565ee48dfc4302053dfb352e5227a92f7bebc9756e56c"
+    },
+    {
+      "file": "audits/2026-10-09_native-user-v6/locked_lead_screw_nut_axial_drift_00000098-counterfactual-native90.png",
+      "sha256": "54f0d9dcdc3049ba6beeb3f3cb2f1f9a9d1f91990c1a207f42822b87b41a4d55"
+    },
+    {
+      "file": "audits/2026-10-09_native-user-v6/locked_lead_screw_nut_axial_drift_00000098-true-native90.png",
+      "sha256": "d39fb0405e5f2134ecd20ffb5fb8c290edfb64a8653e95b4a287650b2483a962"
+    }
+  ],
+  "note": "Actually viewed four 20-frame full-clip sampled montages and four native 2048\u00b2 decoded frame-90 images. Gold male helix and off-axis crank expose ordinary slow shaft turning; nut and guided carriage advance visibly over the first >2 seconds. The latch then arrests shaft and True nut, while only CF continues axial drift. Half-section nut aperture, helical groove, guide hole, thrust collars and bearings remain connected. Relative thread passage in CF after lock is the sole declared coupling violation. Continuous browser playback remains pending. Subsequently public browser full playback and original evidence plus new start/mid/end seeking verified; separate actual receipts retained."
+}

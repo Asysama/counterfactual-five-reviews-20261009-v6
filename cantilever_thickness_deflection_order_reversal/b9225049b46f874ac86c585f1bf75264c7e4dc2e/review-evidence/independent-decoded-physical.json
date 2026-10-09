@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "reports": [
+    {
+      "status": "PASS",
+      "case_id": "cantilever_thickness_deflection_order_reversal_00000042",
+      "head_sha": "b9225049b46f874ac86c585f1bf75264c7e4dc2e",
+      "first_changed_frame": 32,
+      "mask_end_frame": 120,
+      "minimum_target_border_px": 216,
+      "physical_witnesses": {
+        "thin_deflection": 0.19749999999999998,
+        "true_thick": 0.004606413994169095,
+        "cf_thick": 0.32587499999999997,
+        "evidence_frame": 53
+      },
+      "all_120_frames_each_stream_audited": true,
+      "visual_inspection": "PENDING",
+      "browser_playback": "PENDING"
+    },
+    {
+      "status": "PASS",
+      "case_id": "cantilever_thickness_deflection_order_reversal_00000098",
+      "head_sha": "b9225049b46f874ac86c585f1bf75264c7e4dc2e",
+      "first_changed_frame": 36,
+      "mask_end_frame": 120,
+      "minimum_target_border_px": 185,
+      "physical_witnesses": {
+        "thin_deflection": 0.27625,
+        "true_thick": 0.006443148688046646,
+        "cf_thick": 0.45581249999999995,
+        "evidence_frame": 64
+      },
+      "all_120_frames_each_stream_audited": true,
+      "visual_inspection": "PENDING",
+      "browser_playback": "PENDING"
+    }
+  ],
+  "note": "Automated results retain their original PENDING visual fields; the separate contributor review records the subsequent actual inspections."
+}

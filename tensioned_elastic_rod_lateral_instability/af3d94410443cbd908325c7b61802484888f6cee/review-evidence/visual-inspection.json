@@ -1,0 +1,42 @@
+{
+  "generator_name": "tensioned_elastic_rod_lateral_instability",
+  "head_sha": "af3d94410443cbd908325c7b61802484888f6cee",
+  "status": "PASS",
+  "note": "Actually viewed four 20-frame sampled full-clip montages and four native 2048-square frame90 images. Gold feet move outward on the base, continuous legs connect sliders to retracting gold pistons, and springs visibly lengthen. Hollow cylinder ports remain coherent; fixed rail supports and rod grips stay connected. True bow decreases and CF bow increases. Continuous browser playback pending. Subsequently public browser full playback and original evidence plus new start/mid/end seeking verified; separate actual receipts retained.",
+  "full_clip_montages_inspected": [
+    {
+      "file": "audits/2026-10-09_native-user-v6/tensioned_elastic_rod_lateral_instability_00000042-counterfactual-montage.png",
+      "sha256": "2e19861cd18102e11280c0a878d45d1c3d7ebed576b2eaaa0ba6c7de61b4559d"
+    },
+    {
+      "file": "audits/2026-10-09_native-user-v6/tensioned_elastic_rod_lateral_instability_00000042-true-montage.png",
+      "sha256": "29a5b1fdc0e89d5d2974a18ec9ae9a0107bb179ebec3c77c6139edcebbcda272"
+    },
+    {
+      "file": "audits/2026-10-09_native-user-v6/tensioned_elastic_rod_lateral_instability_00000098-counterfactual-montage.png",
+      "sha256": "f7eb080042619076d373894cfbd5e1f2e5c3cc26e37ec05fc151998176f6f11e"
+    },
+    {
+      "file": "audits/2026-10-09_native-user-v6/tensioned_elastic_rod_lateral_instability_00000098-true-montage.png",
+      "sha256": "33c7b33411fe28c7d5f48aa881ffa04a88eba6cb6a2dc9b8c1d506df40b8a1ee"
+    }
+  ],
+  "native_frames_inspected": [
+    {
+      "file": "audits/2026-10-09_native-user-v6/tensioned_elastic_rod_lateral_instability_00000042-counterfactual-native90.png",
+      "sha256": "7bef6bb374e5c1ea889d4a83b549b846223403af9067a44462684c208eb2fcde"
+    },
+    {
+      "file": "audits/2026-10-09_native-user-v6/tensioned_elastic_rod_lateral_instability_00000042-true-native90.png",
+      "sha256": "16efa5454bc293f2c50cf0c787a7e908cfa6c5717f3cc8cbdabb84dbaf1d058d"
+    },
+    {
+      "file": "audits/2026-10-09_native-user-v6/tensioned_elastic_rod_lateral_instability_00000098-counterfactual-native90.png",
+      "sha256": "5d9f5614b6b345ea32472be5551d4d33baefdcf9f82e662966f376974b8769f5"
+    },
+    {
+      "file": "audits/2026-10-09_native-user-v6/tensioned_elastic_rod_lateral_instability_00000098-true-native90.png",
+      "sha256": "55c88b687e96427adda1797f22b2846aad2b641845e4c2860357b4bdd2046cf7"
+    }
+  ]
+}

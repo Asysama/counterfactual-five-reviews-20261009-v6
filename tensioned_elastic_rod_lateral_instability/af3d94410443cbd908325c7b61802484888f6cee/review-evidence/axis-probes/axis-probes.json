@@ -1,0 +1,281 @@
+{
+  "generator": "tensioned_elastic_rod_lateral_instability",
+  "commit": "af3d94410443cbd908325c7b61802484888f6cee",
+  "worktree": "",
+  "python": "3.11.17 (main, Oct  3 2026, 01:05:36) [Clang 22.1.3 ]",
+  "blender": "4.5.3 LTS",
+  "platform": "Linux-7.0.0-1014-aws-x86_64-with-glibc2.39",
+  "smoke_resolution": [
+    512,
+    512
+  ],
+  "formal_acceptance": false,
+  "probes": {
+    "baseline": {
+      "recipe": {
+        "length": 4.1,
+        "response": 0.7899999999999999,
+        "onset": 31,
+        "appearance": 7,
+        "view": 3,
+        "detail": 1.021916483884477,
+        "gravity": 9.81,
+        "bow": 0.14306830774382678,
+        "load_ratio": 0.4348,
+        "radius": 0.045,
+        "duration": 2.0,
+        "young": 2000000000.0
+      },
+      "images": {
+        "baseline-true-29.png": "f740ad1dd0c9461b6d5557805670a84d2202936ca0a2efdef600c84a41a79009",
+        "baseline-true-35.png": "df208343c409d89ef6af23c48e8a3a178a0e04827681d669b711c86779266be3",
+        "baseline-true-90.png": "3cef451408288bb78fb93950ab66b9301d3e06499c130bdb7d1e6d13240d3097",
+        "baseline-counterfactual-29.png": "90b1b756d9887e03d5fc13690337e05cfff196fd7554254ca10562b5275175c5",
+        "baseline-counterfactual-35.png": "2043e7487e0454314af8334ae234087e641a024e8eee79bfa19eb714975fe849",
+        "baseline-counterfactual-90.png": "7488a086525c863e88efd177e815316a67ebd8dcf5eab14842a46a9bd6856bb4"
+      },
+      "metrics": {},
+      "changed_pixels": {}
+    },
+    "length_low": {
+      "recipe": {
+        "length": 3.4,
+        "response": 0.7899999999999999,
+        "onset": 31,
+        "appearance": 7,
+        "view": 3,
+        "detail": 1.021916483884477,
+        "gravity": 9.81,
+        "bow": 0.14306830774382678,
+        "load_ratio": 0.4348,
+        "radius": 0.045,
+        "duration": 2.0,
+        "young": 2000000000.0
+      },
+      "images": {
+        "length_low-true-29.png": "d72863cdb53d74b949921be138465001df08ec07a31c9f7f93de813edb44cdd4",
+        "length_low-true-35.png": "6d22b8126e032b34e4689619f3a1b3553ad573bbbfafa1825433b28f4ffe2970",
+        "length_low-true-90.png": "93595a83cc4bc64981deb00e5015877b87fc621d336d315442d00e7ccbd86dcc",
+        "length_low-counterfactual-29.png": "83bfd0cc1881f4a79a8fa2731091cbed613363e1979d04169348a753aa16f2bc",
+        "length_low-counterfactual-35.png": "510d30e06763e3298658ae772ca12c1ec4f91110dd4d6b3e7a5ddacf1a7fed9e",
+        "length_low-counterfactual-90.png": "ee7cc592d69933f8201456ba39fb4cd82b766eac04bcf823acc0a043f768f308"
+      },
+      "metrics": {
+        "true-29": 1.7357037862141926,
+        "true-35": 1.7403539021809895,
+        "true-90": 1.7008132934570312,
+        "counterfactual-29": 1.7357037862141926,
+        "counterfactual-35": 1.7418123881022136,
+        "counterfactual-90": 1.7291882832845051
+      },
+      "changed_pixels": {
+        "true-29": 25918,
+        "true-35": 25939,
+        "true-90": 25555,
+        "counterfactual-29": 25918,
+        "counterfactual-35": 25962,
+        "counterfactual-90": 25764
+      }
+    },
+    "length_high": {
+      "recipe": {
+        "length": 4.3,
+        "response": 0.7899999999999999,
+        "onset": 31,
+        "appearance": 7,
+        "view": 3,
+        "detail": 1.021916483884477,
+        "gravity": 9.81,
+        "bow": 0.14306830774382678,
+        "load_ratio": 0.4348,
+        "radius": 0.045,
+        "duration": 2.0,
+        "young": 2000000000.0
+      },
+      "images": {
+        "length_high-true-29.png": "b94653cd5fe7f029a9eaff32c371f713e9f2175d9043b6d689ebb9a65a3d27bc",
+        "length_high-true-35.png": "116bd59b634a93d549171b6b6636b1a2e594d52e9875e53792decec8466cd2a8",
+        "length_high-true-90.png": "27984f217f23d58d3f2ed4f355ad70d1ecc319b12929db97a531e25403028618",
+        "length_high-counterfactual-29.png": "b94653cd5fe7f029a9eaff32c371f713e9f2175d9043b6d689ebb9a65a3d27bc",
+        "length_high-counterfactual-35.png": "87e473d3c40d3d474bcd3884cd7bb19b1d5492ccaced5812ebb0457b10e71914",
+        "length_high-counterfactual-90.png": "d5071611e57f5f9909782e8e8e335a1b66fd3838c20b3c39cf251110a7e9ebf0"
+      },
+      "metrics": {
+        "true-29": 0.6858050028483073,
+        "true-35": 0.6984062194824219,
+        "true-90": 0.6890182495117188,
+        "counterfactual-29": 0.6858050028483073,
+        "counterfactual-35": 0.6989618937174479,
+        "counterfactual-90": 0.7001762390136719
+      },
+      "changed_pixels": {
+        "true-29": 12858,
+        "true-35": 12946,
+        "true-90": 12835,
+        "counterfactual-29": 12858,
+        "counterfactual-35": 12932,
+        "counterfactual-90": 13109
+      }
+    },
+    "response_low": {
+      "recipe": {
+        "length": 4.1,
+        "response": 0.7,
+        "onset": 31,
+        "appearance": 7,
+        "view": 3,
+        "detail": 1.021916483884477,
+        "gravity": 9.81,
+        "bow": 0.14306830774382678,
+        "load_ratio": 0.42400000000000004,
+        "radius": 0.045,
+        "duration": 2.0,
+        "young": 2000000000.0
+      },
+      "images": {
+        "response_low-true-29.png": "0e4bf7ae722db740b3c3a1645e7abcf92c3993b52c7be9dbc83cd828c381aac4",
+        "response_low-true-35.png": "94fa496b4c7110dec6d9ecfb5a3e8220fca38abe800c91b4ed8e6112219f9084",
+        "response_low-true-90.png": "ebea999370fea6d7fadd50603b62832b221cab8b3c957b2ceb09f7e4c92c6207",
+        "response_low-counterfactual-29.png": "0deaa1f7c1c27d98570e6d8dbc69fd91794f619e9a71315c06c1e577e2cbf0ed",
+        "response_low-counterfactual-35.png": "9278dd05d12b3dfb0e639573b407248bea7520ea9696fcdde2ac032d2ba11eca",
+        "response_low-counterfactual-90.png": "4f6fb2b194633e6327f200731174557a11318f490fa43790aff22d9afc4f0686"
+      },
+      "metrics": {
+        "true-29": 0.0,
+        "true-35": 0.0006090799967447916,
+        "true-90": 0.0031712849934895835,
+        "counterfactual-29": 0.0,
+        "counterfactual-35": 0.0006472269694010416,
+        "counterfactual-90": 0.0195465087890625
+      },
+      "changed_pixels": {
+        "true-29": 0,
+        "true-35": 0,
+        "true-90": 1,
+        "counterfactual-29": 0,
+        "counterfactual-35": 0,
+        "counterfactual-90": 371
+      }
+    },
+    "response_high": {
+      "recipe": {
+        "length": 4.1,
+        "response": 1.105,
+        "onset": 31,
+        "appearance": 7,
+        "view": 3,
+        "detail": 1.021916483884477,
+        "gravity": 9.81,
+        "bow": 0.14306830774382678,
+        "load_ratio": 0.4726,
+        "radius": 0.045,
+        "duration": 2.0,
+        "young": 2000000000.0
+      },
+      "images": {
+        "response_high-true-29.png": "a061b57bc9a1100cf4daebe6828f5004415d424fee5102dd7413101b23edc846",
+        "response_high-true-35.png": "1f8daac84c026be00729195321bf222baca1d649f85591b93382e075fede23ec",
+        "response_high-true-90.png": "86a7799724f4c252b094fa44e7d413b588e2a0719f84a440fbe4bf666f1aeba1",
+        "response_high-counterfactual-29.png": "a061b57bc9a1100cf4daebe6828f5004415d424fee5102dd7413101b23edc846",
+        "response_high-counterfactual-35.png": "d1c4e982fbb83cd76eacc0803b11268150b7f00093efc29a9931ef26b29bfe51",
+        "response_high-counterfactual-90.png": "430e7c0a5e94c8d586f727eb81065aec4244570dc14248d5ff00a36e9db2d686"
+      },
+      "metrics": {
+        "true-29": 0.0,
+        "true-35": 0.0018297831217447917,
+        "true-90": 0.009240468343098959,
+        "counterfactual-29": 0.0,
+        "counterfactual-35": 0.0020599365234375,
+        "counterfactual-90": 0.06698099772135417
+      },
+      "changed_pixels": {
+        "true-29": 0,
+        "true-35": 0,
+        "true-90": 82,
+        "counterfactual-29": 0,
+        "counterfactual-35": 0,
+        "counterfactual-90": 1408
+      }
+    },
+    "onset_low": {
+      "recipe": {
+        "length": 4.1,
+        "response": 0.7899999999999999,
+        "onset": 28,
+        "appearance": 7,
+        "view": 3,
+        "detail": 1.021916483884477,
+        "gravity": 9.81,
+        "bow": 0.14306830774382678,
+        "load_ratio": 0.4348,
+        "radius": 0.045,
+        "duration": 2.0,
+        "young": 2000000000.0
+      },
+      "images": {
+        "onset_low-true-29.png": "bad19ebaccb54f7d3385c96229a79fc57215aa53ff3b93474606d692fb008ca2",
+        "onset_low-true-35.png": "fd27ca7c97e43cb40fc5dd394acb56f74e79e105bae19b1f998e2366a734c5a0",
+        "onset_low-true-90.png": "b5c60cb27708e4e45325e2ce0c19b3733f577c5e2f469c204f16af4bd9b778c4",
+        "onset_low-counterfactual-29.png": "b78b03cbce4a7de08d602e66f1e5bc986a78e4ca358eaa18244906573b303787",
+        "onset_low-counterfactual-35.png": "f201e1d2f0c88fdfdb2462be4df64b5fb66c71a9457be6d2885d9736e810099b",
+        "onset_low-counterfactual-90.png": "61ffb96a0ab30fa5943f7056e51c2938baa53fee1326f03be2941cff142f080d"
+      },
+      "metrics": {
+        "true-29": 0.0661938985188802,
+        "true-35": 0.1706085205078125,
+        "true-90": 0.0,
+        "counterfactual-29": 0.0653851826985677,
+        "counterfactual-35": 0.17136764526367188,
+        "counterfactual-90": 0.0
+      },
+      "changed_pixels": {
+        "true-29": 1144,
+        "true-35": 2158,
+        "true-90": 0,
+        "counterfactual-29": 1136,
+        "counterfactual-35": 2274,
+        "counterfactual-90": 0
+      }
+    },
+    "onset_high": {
+      "recipe": {
+        "length": 4.1,
+        "response": 0.7899999999999999,
+        "onset": 37,
+        "appearance": 7,
+        "view": 3,
+        "detail": 1.021916483884477,
+        "gravity": 9.81,
+        "bow": 0.14306830774382678,
+        "load_ratio": 0.4348,
+        "radius": 0.045,
+        "duration": 2.0,
+        "young": 2000000000.0
+      },
+      "images": {
+        "onset_high-true-29.png": "af897bef699a9aabcb99500e462e99d73ce33578feae3994dced5c7994d0aeaf",
+        "onset_high-true-35.png": "af897bef699a9aabcb99500e462e99d73ce33578feae3994dced5c7994d0aeaf",
+        "onset_high-true-90.png": "734b99d3db553759903a50d3e9f69cb6e7457d5dcc2b90b28ceda93a19a23877",
+        "onset_high-counterfactual-29.png": "3ae8ea3c0884f4d1299d45808556c3edebb99642326af6600c9d9b3288145621",
+        "onset_high-counterfactual-35.png": "3ae8ea3c0884f4d1299d45808556c3edebb99642326af6600c9d9b3288145621",
+        "onset_high-counterfactual-90.png": "4177577673dfa56df8de27880a1eade69eb6becc97b9aebed5db89c1e90fc8cf"
+      },
+      "metrics": {
+        "true-29": 0.0,
+        "true-35": 0.2046178181966146,
+        "true-90": 0.0,
+        "counterfactual-29": 0.0,
+        "counterfactual-35": 0.203826904296875,
+        "counterfactual-90": 0.0
+      },
+      "changed_pixels": {
+        "true-29": 0,
+        "true-35": 2620,
+        "true-90": 0,
+        "counterfactual-29": 0,
+        "counterfactual-35": 2634,
+        "counterfactual-90": 0
+      }
+    }
+  }
+}

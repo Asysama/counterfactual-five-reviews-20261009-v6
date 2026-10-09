@@ -1,0 +1,79 @@
+{
+  "generator_name": "cantilever_thickness_deflection_order_reversal",
+  "head_sha": "b9225049b46f874ac86c585f1bf75264c7e4dc2e",
+  "streams": [
+    {
+      "error": null,
+      "expected_time": 2.2083333333333335,
+      "paused": true,
+      "readyState": 4,
+      "seeking": null,
+      "src": "https://asysama.github.io/counterfactual-five-reviews-20261009-v6/cantilever_thickness_deflection_order_reversal/b9225049b46f874ac86c585f1bf75264c7e4dc2e/cantilever_thickness_deflection_order_reversal_00000042/true/video_browser.mp4",
+      "time": 2.208333
+    },
+    {
+      "error": null,
+      "expected_time": 2.2083333333333335,
+      "paused": true,
+      "readyState": 4,
+      "seeking": null,
+      "src": "https://asysama.github.io/counterfactual-five-reviews-20261009-v6/cantilever_thickness_deflection_order_reversal/b9225049b46f874ac86c585f1bf75264c7e4dc2e/cantilever_thickness_deflection_order_reversal_00000042/counterfactual_thick_beam_excess_compliance/video_browser.mp4",
+      "time": 2.208333
+    },
+    {
+      "error": null,
+      "expected_time": 2.2083333333333335,
+      "paused": true,
+      "readyState": 4,
+      "seeking": null,
+      "src": "https://asysama.github.io/counterfactual-five-reviews-20261009-v6/cantilever_thickness_deflection_order_reversal/b9225049b46f874ac86c585f1bf75264c7e4dc2e/cantilever_thickness_deflection_order_reversal_00000042/counterfactual_thick_beam_excess_compliance/mask_browser.mp4",
+      "time": 2.208333
+    },
+    {
+      "error": null,
+      "expected_time": 2.2083333333333335,
+      "paused": true,
+      "readyState": 4,
+      "seeking": null,
+      "src": "https://asysama.github.io/counterfactual-five-reviews-20261009-v6/cantilever_thickness_deflection_order_reversal/b9225049b46f874ac86c585f1bf75264c7e4dc2e/cantilever_thickness_deflection_order_reversal_00000042/counterfactual_thick_beam_excess_compliance/mask_overlay_browser.mp4",
+      "time": 2.208333
+    },
+    {
+      "error": null,
+      "expected_time": 2.6666666666666665,
+      "paused": true,
+      "readyState": 4,
+      "seeking": null,
+      "src": "https://asysama.github.io/counterfactual-five-reviews-20261009-v6/cantilever_thickness_deflection_order_reversal/b9225049b46f874ac86c585f1bf75264c7e4dc2e/cantilever_thickness_deflection_order_reversal_00000098/true/video_browser.mp4",
+      "time": 2.666666
+    },
+    {
+      "error": null,
+      "expected_time": 2.6666666666666665,
+      "paused": true,
+      "readyState": 4,
+      "seeking": null,
+      "src": "https://asysama.github.io/counterfactual-five-reviews-20261009-v6/cantilever_thickness_deflection_order_reversal/b9225049b46f874ac86c585f1bf75264c7e4dc2e/cantilever_thickness_deflection_order_reversal_00000098/counterfactual_thick_beam_excess_compliance/video_browser.mp4",
+      "time": 2.666666
+    },
+    {
+      "error": null,
+      "expected_time": 2.6666666666666665,
+      "paused": true,
+      "readyState": 4,
+      "seeking": null,
+      "src": "https://asysama.github.io/counterfactual-five-reviews-20261009-v6/cantilever_thickness_deflection_order_reversal/b9225049b46f874ac86c585f1bf75264c7e4dc2e/cantilever_thickness_deflection_order_reversal_00000098/counterfactual_thick_beam_excess_compliance/mask_browser.mp4",
+      "time": 2.666666
+    },
+    {
+      "error": null,
+      "expected_time": 2.6666666666666665,
+      "paused": true,
+      "readyState": 4,
+      "seeking": null,
+      "src": "https://asysama.github.io/counterfactual-five-reviews-20261009-v6/cantilever_thickness_deflection_order_reversal/b9225049b46f874ac86c585f1bf75264c7e4dc2e/cantilever_thickness_deflection_order_reversal_00000098/counterfactual_thick_beam_excess_compliance/mask_overlay_browser.mp4",
+      "time": 2.666666
+    }
+  ],
+  "note": "Read-only browser bridge does not expose seeking; actual time/ready state and screenshot checked."
+}

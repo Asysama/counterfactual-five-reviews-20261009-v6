@@ -1,0 +1,206 @@
+{
+  "generator": "locked_lead_screw_nut_axial_drift",
+  "commit": "7afda3394dfd1ccc6e85837eacda75a04ff3b9f8",
+  "worktree": "",
+  "python": "3.11.17 (main, Oct  3 2026, 01:05:36) [Clang 22.1.3 ]",
+  "blender": "4.5.3 LTS",
+  "platform": "Linux-7.0.0-1014-aws-x86_64-with-glibc2.39",
+  "smoke_resolution": [
+    512,
+    512
+  ],
+  "formal_acceptance": false,
+  "probes": {
+    "baseline": {
+      "recipe": {
+        "length": 4.1,
+        "response": 0.7899999999999999,
+        "onset": 55,
+        "appearance": 7,
+        "view": 3,
+        "detail": 1.021916483884477,
+        "gravity": 9.81,
+        "pitch": 0.6716,
+        "radius": 0.132849142904982,
+        "nut_width": 0.47,
+        "rate": 0.9289999999999999,
+        "drift": 0.5135
+      },
+      "images": {
+        "baseline-true-35.png": "826ae322479e5f4bbc57ba19e277d9859a2e2ad310f9fcc3e8eea890759528f8",
+        "baseline-true-90.png": "a064c6066aac126ef6774683173adbd9110666c4582c669c35cc494313340846",
+        "baseline-counterfactual-35.png": "389a2a2fd53ed06903396aaf3bb6534bc69ffaa4927d004848b3be9e90fccd0c",
+        "baseline-counterfactual-90.png": "086117199fe1a4a3e469c9bb00fd6cd3ee80ad6ecbb225506cb6be7eedc0ede1"
+      },
+      "metrics": {}
+    },
+    "length_low": {
+      "recipe": {
+        "length": 3.4,
+        "response": 0.7899999999999999,
+        "onset": 55,
+        "appearance": 7,
+        "view": 3,
+        "detail": 1.021916483884477,
+        "gravity": 9.81,
+        "pitch": 0.6716,
+        "radius": 0.132849142904982,
+        "nut_width": 0.47,
+        "rate": 0.9289999999999999,
+        "drift": 0.5135
+      },
+      "images": {
+        "length_low-true-35.png": "c0528ad2736bb40341c2365f4ffe2355b5237ba4b1abc3a9e6a218899a87a377",
+        "length_low-true-90.png": "98f15bfccbad5494fe11b53163ce174df5070670c40b5b19500c1125c15508a3",
+        "length_low-counterfactual-35.png": "c0528ad2736bb40341c2365f4ffe2355b5237ba4b1abc3a9e6a218899a87a377",
+        "length_low-counterfactual-90.png": "a7c97b1d16ea66a3f059d1d74a3f0b2176686c6a525a6fd6ea2736ae5dbfca78"
+      },
+      "metrics": {
+        "true-35": 4.922054290771484,
+        "true-90": 4.931969960530599,
+        "counterfactual-35": 4.922054290771484,
+        "counterfactual-90": 4.971163431803386
+      }
+    },
+    "length_high": {
+      "recipe": {
+        "length": 4.3,
+        "response": 0.7899999999999999,
+        "onset": 55,
+        "appearance": 7,
+        "view": 3,
+        "detail": 1.021916483884477,
+        "gravity": 9.81,
+        "pitch": 0.6716,
+        "radius": 0.132849142904982,
+        "nut_width": 0.47,
+        "rate": 0.9289999999999999,
+        "drift": 0.5135
+      },
+      "images": {
+        "length_high-true-35.png": "6279508009d44bbf1fa576561d614396511fca675d6fd91c7e8ddf0fd87da718",
+        "length_high-true-90.png": "82b1204e8afb9b358c7fac03579a053f1ce235d6b670c33e36affa0f75f3670e",
+        "length_high-counterfactual-35.png": "6279508009d44bbf1fa576561d614396511fca675d6fd91c7e8ddf0fd87da718",
+        "length_high-counterfactual-90.png": "6fe60623745c8048b4dd754996d30af5f664f0e8dc0971e02d2e5a087310925a"
+      },
+      "metrics": {
+        "true-35": 1.7484194437662761,
+        "true-90": 1.760210673014323,
+        "counterfactual-35": 1.7484194437662761,
+        "counterfactual-90": 1.7755063374837239
+      }
+    },
+    "response_low": {
+      "recipe": {
+        "length": 4.1,
+        "response": 0.7,
+        "onset": 55,
+        "appearance": 7,
+        "view": 3,
+        "detail": 1.021916483884477,
+        "gravity": 9.81,
+        "pitch": 0.668,
+        "radius": 0.132849142904982,
+        "nut_width": 0.47,
+        "rate": 0.9199999999999999,
+        "drift": 0.45499999999999996
+      },
+      "images": {
+        "response_low-true-35.png": "3bcc933917dd90967cf425a36699b564f4be04c22e0eeee441743f7918d1e4ff",
+        "response_low-true-90.png": "0379bc5a4998bf020c1b067a41885c664bcee032b272dab6e8966425ffa5006d",
+        "response_low-counterfactual-35.png": "49092fac3e81da75a2ca7aa879aface9aa70fe090ab3840f5b0460c39f277962",
+        "response_low-counterfactual-90.png": "dc6ab57d9993e6742cc9ffee2b89970a9853b104211457e326a07d57541c5215"
+      },
+      "metrics": {
+        "true-35": 0.1194623311360677,
+        "true-90": 0.16347630818684897,
+        "counterfactual-35": 0.1194623311360677,
+        "counterfactual-90": 0.2493133544921875
+      }
+    },
+    "response_high": {
+      "recipe": {
+        "length": 4.1,
+        "response": 1.105,
+        "onset": 55,
+        "appearance": 7,
+        "view": 3,
+        "detail": 1.021916483884477,
+        "gravity": 9.81,
+        "pitch": 0.6842,
+        "radius": 0.132849142904982,
+        "nut_width": 0.47,
+        "rate": 0.9605,
+        "drift": 0.71825
+      },
+      "images": {
+        "response_high-true-35.png": "90c09d0de4dad79fbf8a26cb29082ef0097698c3cab076b0052850d0a0e788e8",
+        "response_high-true-90.png": "292fb30d47eff9206956b207f7b88300777ca4fc075777283ca58ebd276c1462",
+        "response_high-counterfactual-35.png": "12dc5fd63e38a9a6179b1d5a88e7541a6c962ad6f4f0be59e06d8a6f270998fa",
+        "response_high-counterfactual-90.png": "b127bfb839ae24be5d42b0945d40ab643c540b202235c3acc965738b4a9b44c7"
+      },
+      "metrics": {
+        "true-35": 0.3089090983072917,
+        "true-90": 0.42593129475911456,
+        "counterfactual-35": 0.3089090983072917,
+        "counterfactual-90": 0.6266975402832031
+      }
+    },
+    "onset_low": {
+      "recipe": {
+        "length": 4.1,
+        "response": 0.7899999999999999,
+        "onset": 52,
+        "appearance": 7,
+        "view": 3,
+        "detail": 1.021916483884477,
+        "gravity": 9.81,
+        "pitch": 0.6716,
+        "radius": 0.132849142904982,
+        "nut_width": 0.47,
+        "rate": 0.9289999999999999,
+        "drift": 0.5135
+      },
+      "images": {
+        "onset_low-true-35.png": "cbef7d5416e7271e70b681beae4a295e68ee1e8ee97bc24907a4f11b5baab841",
+        "onset_low-true-90.png": "25243c5b90a304efba1ff49c6ef663dd85e8a6227f18c48b705258d25ee4db3b",
+        "onset_low-counterfactual-35.png": "cee81b602ff42dfdbfcbbf0092953932de94b45f6dd75bd80025a9980d2b393c",
+        "onset_low-counterfactual-90.png": "3a50b3bd7624f286117206418e452fc15efc8dcb6f0e58756b8ec406dea71363"
+      },
+      "metrics": {
+        "true-35": 0.0036519368489583335,
+        "true-90": 0.49169667561848956,
+        "counterfactual-35": 0.0036519368489583335,
+        "counterfactual-90": 0.4336280822753906
+      }
+    },
+    "onset_high": {
+      "recipe": {
+        "length": 4.1,
+        "response": 0.7899999999999999,
+        "onset": 61,
+        "appearance": 7,
+        "view": 3,
+        "detail": 1.021916483884477,
+        "gravity": 9.81,
+        "pitch": 0.6716,
+        "radius": 0.132849142904982,
+        "nut_width": 0.47,
+        "rate": 0.9289999999999999,
+        "drift": 0.5135
+      },
+      "images": {
+        "onset_high-true-35.png": "25693e3ef1495553f8b65cc513d5b0babdf9623ba6ead5d93255574599567859",
+        "onset_high-true-90.png": "38efed3060c1c773d514215d2bd3962d1fe836ce41a4f4c9f8ac178ee43866d5",
+        "onset_high-counterfactual-35.png": "1f4f6f881419757c0c7275cb0822aab56a8007c2b953d023acd2222351c0b349",
+        "onset_high-counterfactual-90.png": "dd5c015ca5a69dc7b89d5a3c82c8039e4e461143875320f3b04767712bf216b6"
+      },
+      "metrics": {
+        "true-35": 0.006676991780598958,
+        "true-90": 0.6585680643717448,
+        "counterfactual-35": 0.006676991780598958,
+        "counterfactual-90": 0.5627962748209635
+      }
+    }
+  }
+}

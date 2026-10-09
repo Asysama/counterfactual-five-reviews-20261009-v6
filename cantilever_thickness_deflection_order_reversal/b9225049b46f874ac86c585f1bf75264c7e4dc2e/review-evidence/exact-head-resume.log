@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/opt/siyuan-cf-five/source-user-v6/cantilever_thickness_deflection_order_reversal/generators/cantilever_thickness_deflection_order_reversal/examples/generate.py", line 5, in <module>
+    if __name__=='__main__':cli()
+                            ^^^^^
+  File "/opt/siyuan-cf-five/source-user-v6/cantilever_thickness_deflection_order_reversal/generators/cantilever_thickness_deflection_order_reversal/engine/run.py", line 94, in cli
+    assert a.resume and json.loads(hf.read_text())==header,'incompatible resume'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: incompatible resume
+RESUME_PASS
