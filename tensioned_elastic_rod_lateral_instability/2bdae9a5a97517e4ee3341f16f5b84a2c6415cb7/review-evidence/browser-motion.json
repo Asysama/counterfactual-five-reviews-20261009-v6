@@ -1,0 +1,161 @@
+[
+  {
+    "stage": "middle",
+    "streams": [
+      {
+        "error": null,
+        "paused": true,
+        "readyState": 4,
+        "time": 3.75
+      },
+      {
+        "error": null,
+        "paused": true,
+        "readyState": 4,
+        "time": 3.75
+      },
+      {
+        "error": null,
+        "paused": true,
+        "readyState": 4,
+        "time": 3.75
+      },
+      {
+        "error": null,
+        "paused": true,
+        "readyState": 4,
+        "time": 3.75
+      },
+      {
+        "error": null,
+        "paused": true,
+        "readyState": 4,
+        "time": 3.75
+      },
+      {
+        "error": null,
+        "paused": true,
+        "readyState": 4,
+        "time": 3.75
+      },
+      {
+        "error": null,
+        "paused": true,
+        "readyState": 4,
+        "time": 3.75
+      },
+      {
+        "error": null,
+        "paused": true,
+        "readyState": 4,
+        "time": 3.75
+      }
+    ]
+  },
+  {
+    "stage": "start",
+    "streams": [
+      {
+        "error": null,
+        "paused": true,
+        "readyState": 4,
+        "time": 0
+      },
+      {
+        "error": null,
+        "paused": true,
+        "readyState": 4,
+        "time": 0
+      },
+      {
+        "error": null,
+        "paused": true,
+        "readyState": 4,
+        "time": 0
+      },
+      {
+        "error": null,
+        "paused": true,
+        "readyState": 4,
+        "time": 0
+      },
+      {
+        "error": null,
+        "paused": true,
+        "readyState": 4,
+        "time": 0
+      },
+      {
+        "error": null,
+        "paused": true,
+        "readyState": 4,
+        "time": 0
+      },
+      {
+        "error": null,
+        "paused": true,
+        "readyState": 4,
+        "time": 0
+      },
+      {
+        "error": null,
+        "paused": true,
+        "readyState": 4,
+        "time": 0
+      }
+    ]
+  },
+  {
+    "stage": "end",
+    "streams": [
+      {
+        "error": null,
+        "paused": true,
+        "readyState": 4,
+        "time": 4.958333
+      },
+      {
+        "error": null,
+        "paused": true,
+        "readyState": 4,
+        "time": 4.958333
+      },
+      {
+        "error": null,
+        "paused": true,
+        "readyState": 4,
+        "time": 4.958333
+      },
+      {
+        "error": null,
+        "paused": true,
+        "readyState": 4,
+        "time": 4.958333
+      },
+      {
+        "error": null,
+        "paused": true,
+        "readyState": 4,
+        "time": 4.958333
+      },
+      {
+        "error": null,
+        "paused": true,
+        "readyState": 4,
+        "time": 4.958333
+      },
+      {
+        "error": null,
+        "paused": true,
+        "readyState": 4,
+        "time": 4.958333
+      },
+      {
+        "error": null,
+        "paused": true,
+        "readyState": 4,
+        "time": 4.958333
+      }
+    ]
+  }
+]

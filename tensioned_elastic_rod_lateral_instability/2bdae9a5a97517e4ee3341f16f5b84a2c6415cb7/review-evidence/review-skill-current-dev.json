@@ -1,0 +1,38 @@
+[
+  {
+    "path": "SKILL.md",
+    "remote_blob": "a8871f1fa92c4380dffa5f411d2a1c9364cc38e5",
+    "local_blob": "a8871f1fa92c4380dffa5f411d2a1c9364cc38e5",
+    "identical": true
+  },
+  {
+    "path": "references/review-gates.md",
+    "remote_blob": "c0a65b2e2dbb20af17eabd4257e9bf5efb8241ff",
+    "local_blob": "c0a65b2e2dbb20af17eabd4257e9bf5efb8241ff",
+    "identical": true
+  },
+  {
+    "path": "references/runtime-provenance-workflow.md",
+    "remote_blob": "799b26f9748ecb5a3281230d342b0515d1fd1cf0",
+    "local_blob": "799b26f9748ecb5a3281230d342b0515d1fd1cf0",
+    "identical": true
+  },
+  {
+    "path": "references/scale-readiness-contract.md",
+    "remote_blob": "c5473b7e53ae7528fcdfc1f6888ae1429f9e9f1b",
+    "local_blob": "c5473b7e53ae7528fcdfc1f6888ae1429f9e9f1b",
+    "identical": true
+  },
+  {
+    "path": "references/sara-visual-feedback.md",
+    "remote_blob": "937e3590daa6f7a01945d0ded6ba8ab840a6311f",
+    "local_blob": "937e3590daa6f7a01945d0ded6ba8ab840a6311f",
+    "identical": true
+  },
+  {
+    "path": "assets/review-report-template.md",
+    "remote_blob": "bae1ea2bce626354ae43fff83a12d28a2428bd2f",
+    "local_blob": "bae1ea2bce626354ae43fff83a12d28a2428bd2f",
+    "identical": true
+  }
+]

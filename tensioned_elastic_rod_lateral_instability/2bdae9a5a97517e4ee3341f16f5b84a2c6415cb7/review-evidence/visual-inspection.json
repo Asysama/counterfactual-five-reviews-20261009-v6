@@ -1,0 +1,193 @@
+{
+  "generator_name": "tensioned_elastic_rod_lateral_instability",
+  "head_sha": "2bdae9a5a97517e4ee3341f16f5b84a2c6415cb7",
+  "status": "PASS",
+  "native_frames_inspected": true,
+  "full_clip_montages_inspected": true,
+  "montages": [
+    {
+      "path": "backups/user-v7-audits/audits-user-v7/visual-montages/tensioned_elastic_rod_lateral_instability_00000042-counterfactual.png",
+      "sha256": "861277e4d5c22649961847686519bc4aabe061a256a43f38751e0aa962d93478",
+      "sampled_frames": [
+        0,
+        6,
+        12,
+        18,
+        24,
+        30,
+        36,
+        42,
+        48,
+        54,
+        60,
+        66,
+        72,
+        78,
+        84,
+        90,
+        96,
+        102,
+        108,
+        114
+      ]
+    },
+    {
+      "path": "backups/user-v7-audits/audits-user-v7/visual-montages/tensioned_elastic_rod_lateral_instability_00000042-true.png",
+      "sha256": "6a5d0888c73f88696731c2893f5efdaab51e02c312f217a73aaa895c35f02344",
+      "sampled_frames": [
+        0,
+        6,
+        12,
+        18,
+        24,
+        30,
+        36,
+        42,
+        48,
+        54,
+        60,
+        66,
+        72,
+        78,
+        84,
+        90,
+        96,
+        102,
+        108,
+        114
+      ]
+    },
+    {
+      "path": "backups/user-v7-audits/audits-user-v7/visual-montages/tensioned_elastic_rod_lateral_instability_00000098-counterfactual.png",
+      "sha256": "8c318c2bd225d0c2b7a86346acdc7a86d0a53fb211c8b0d2d31da33350a81399",
+      "sampled_frames": [
+        0,
+        6,
+        12,
+        18,
+        24,
+        30,
+        36,
+        42,
+        48,
+        54,
+        60,
+        66,
+        72,
+        78,
+        84,
+        90,
+        96,
+        102,
+        108,
+        114
+      ]
+    },
+    {
+      "path": "backups/user-v7-audits/audits-user-v7/visual-montages/tensioned_elastic_rod_lateral_instability_00000098-true.png",
+      "sha256": "1a0ea79e5ad33ef2f2408730f4d60b5882bebba20394c7e595eea3e999d46716",
+      "sampled_frames": [
+        0,
+        6,
+        12,
+        18,
+        24,
+        30,
+        36,
+        42,
+        48,
+        54,
+        60,
+        66,
+        72,
+        78,
+        84,
+        90,
+        96,
+        102,
+        108,
+        114
+      ]
+    }
+  ],
+  "native_frames": [
+    {
+      "path": "audits/2026-10-10_native-cloud-user-v7/opt/siyuan-cf-five/formal-user-v7/tensioned_elastic_rod_lateral_instability/tensioned_elastic_rod_lateral_instability_00000042/counterfactual-090.png",
+      "sha256": "a6484530e09cf7d61a323fb80b7884c5c77e7e41252a0c90b2d001ead6d00cf7",
+      "frame": 90,
+      "inspected": true
+    },
+    {
+      "path": "audits/2026-10-10_native-cloud-user-v7/opt/siyuan-cf-five/formal-user-v7/tensioned_elastic_rod_lateral_instability/tensioned_elastic_rod_lateral_instability_00000042/mask-090.png",
+      "sha256": "ad9fdbd412b405bd273a24fc1cf97ef8386905f4562ae08a15c1d0ebafea6023",
+      "frame": 90,
+      "inspected": true
+    },
+    {
+      "path": "audits/2026-10-10_native-cloud-user-v7/opt/siyuan-cf-five/formal-user-v7/tensioned_elastic_rod_lateral_instability/tensioned_elastic_rod_lateral_instability_00000042/overlay-090.png",
+      "sha256": "266c8130fe51cfed2a5bb5e1454cd7db696b523a9ed46638572f46ea05249c9a",
+      "frame": 90,
+      "inspected": true
+    },
+    {
+      "path": "audits/2026-10-10_native-cloud-user-v7/opt/siyuan-cf-five/formal-user-v7/tensioned_elastic_rod_lateral_instability/tensioned_elastic_rod_lateral_instability_00000042/true-090.png",
+      "sha256": "66a4b576715e254a14cfab865081278d705be3ad098e84fedd46a461c04d70e6",
+      "frame": 90,
+      "inspected": true
+    },
+    {
+      "path": "audits/2026-10-10_native-cloud-user-v7/opt/siyuan-cf-five/formal-user-v7/tensioned_elastic_rod_lateral_instability/tensioned_elastic_rod_lateral_instability_00000098/counterfactual-090.png",
+      "sha256": "7d80e0d9c29ebb5e32046c817aa841fc34279218da90ef0f3c58fa508c18eae4",
+      "frame": 90,
+      "inspected": true
+    },
+    {
+      "path": "audits/2026-10-10_native-cloud-user-v7/opt/siyuan-cf-five/formal-user-v7/tensioned_elastic_rod_lateral_instability/tensioned_elastic_rod_lateral_instability_00000098/mask-090.png",
+      "sha256": "e7dcc9de9b9d6a3bc6b309ff296ae0e8789fc450549a934a1e694fb09db6b13b",
+      "frame": 90,
+      "inspected": false
+    },
+    {
+      "path": "audits/2026-10-10_native-cloud-user-v7/opt/siyuan-cf-five/formal-user-v7/tensioned_elastic_rod_lateral_instability/tensioned_elastic_rod_lateral_instability_00000098/overlay-090.png",
+      "sha256": "537dbdb1fa0566f6a4b9bdd60cc45110ad4dccd535d31f9fe2db132dd0b6aa6a",
+      "frame": 90,
+      "inspected": false
+    },
+    {
+      "path": "audits/2026-10-10_native-cloud-user-v7/opt/siyuan-cf-five/formal-user-v7/tensioned_elastic_rod_lateral_instability/tensioned_elastic_rod_lateral_instability_00000098/true-090.png",
+      "sha256": "b165bd17ad8b949aa1f6fb94fe784655ea41c4fc1b1a1f26a6b42b00e2ca404a",
+      "frame": 90,
+      "inspected": true
+    },
+    {
+      "path": "audits/2026-10-10_native-user-v7/tensioned_elastic_rod_lateral_instability_00000042-counterfactual-native91.png",
+      "sha256": "323f1810bcd4e768437cf1a3ba04ecf336502e72640de94fcf92731d8f844b09",
+      "frame": 91,
+      "inspected": true,
+      "source": "decoded final MP4"
+    },
+    {
+      "path": "audits/2026-10-10_native-user-v7/tensioned_elastic_rod_lateral_instability_00000042-true-native91.png",
+      "sha256": "c90bed04bf05a5e84017512445cd5707187ec3003da57c988e76a75cac50b993",
+      "frame": 91,
+      "inspected": true,
+      "source": "decoded final MP4"
+    },
+    {
+      "path": "audits/2026-10-10_native-user-v7/tensioned_elastic_rod_lateral_instability_00000098-counterfactual-native91.png",
+      "sha256": "c3298dc6d78f2092f65455651be5b0ad2a0bc8256e579ac3d4d7dbef95592f2e",
+      "frame": 91,
+      "inspected": true,
+      "source": "decoded final MP4"
+    },
+    {
+      "path": "audits/2026-10-10_native-user-v7/tensioned_elastic_rod_lateral_instability_00000098-true-native91.png",
+      "sha256": "32d258182b6e01124fa648ca2974985cfd5d98f429af664a0260004af455d975",
+      "frame": 91,
+      "inspected": true,
+      "source": "decoded final MP4"
+    }
+  ],
+  "actual_human_inspection": "4 complete-clip 20-frame sampled montages and 4 native frame90 RGB images actually viewed; not claimed manual inspection of every frame. Inner orange foot-leg-sleeve-grip and outer gold pull path visible on the light-grey stationary bed. Both springs stay between grip faces and pull crossheads; True bow decreases, CF bow increases. Browser playback and adjacent-frame edge inspection remain pending. All four decoded native frame91 RGB images additionally viewed at original detail alongside frame90; moving rod, spring and carriage silhouettes are smooth and connections remain stable. Seed42 original mask and overlay at frame90 actually viewed: white rod-only mask and red rod-only overlay; clamp, springs and bed excluded. Actual public browser playback: all eight streams reached ended=true at five seconds without error. Both cases were viewed in full-page browser screenshot: white rod-only masks, red-only overlays and separate orange grip / gold pull-carriage load paths; start, middle, end and physical-evidence seeks checked.",
+  "adjacent_native_frames_inspected": true
+}

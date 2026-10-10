@@ -1,0 +1,90 @@
+{
+  "status": "PASS",
+  "rows": [
+    {
+      "case_id": "tensioned_elastic_rod_lateral_instability_00000042",
+      "head_sha": "2bdae9a5a97517e4ee3341f16f5b84a2c6415cb7",
+      "branch": "true",
+      "frames": 120,
+      "status": "PASS",
+      "minimum_inner_support_gap": 0.04001385048718675,
+      "minimum_outer_support_gap": 0.41155875034836953,
+      "minimum_exposed_piston": 0.13655875034836962,
+      "spring_initial_length": 0.31000000000000005,
+      "spring_final_length": 1.1599999999999997,
+      "inner_grip_axial_travel": [
+        -0.0034273991644435675,
+        0.0034273991644435675
+      ],
+      "outer_carriage_travel": [
+        0.8534273991644432,
+        0.8534273991644432
+      ],
+      "support_connections": "bed-foot-leg-guide sleeve-stem-grip; spring contacts grip face and pull crosshead; shared ordinary force and spring extension"
+    },
+    {
+      "case_id": "tensioned_elastic_rod_lateral_instability_00000042",
+      "head_sha": "2bdae9a5a97517e4ee3341f16f5b84a2c6415cb7",
+      "branch": "counterfactual",
+      "frames": 120,
+      "status": "PASS",
+      "minimum_inner_support_gap": 0.02715960839739906,
+      "minimum_outer_support_gap": 0.4278403916026008,
+      "minimum_exposed_piston": 0.15284039160260088,
+      "spring_initial_length": 0.31000000000000005,
+      "spring_final_length": 1.1599999999999997,
+      "inner_grip_axial_travel": [
+        0.012854242089787693,
+        -0.012854242089787693
+      ],
+      "outer_carriage_travel": [
+        0.837145757910212,
+        0.837145757910212
+      ],
+      "support_connections": "bed-foot-leg-guide sleeve-stem-grip; spring contacts grip face and pull crosshead; shared ordinary force and spring extension"
+    },
+    {
+      "case_id": "tensioned_elastic_rod_lateral_instability_00000098",
+      "head_sha": "2bdae9a5a97517e4ee3341f16f5b84a2c6415cb7",
+      "branch": "true",
+      "frames": 120,
+      "status": "PASS",
+      "minimum_inner_support_gap": 0.04002345226733417,
+      "minimum_outer_support_gap": 0.41065602320288885,
+      "minimum_exposed_piston": 0.13565602320288894,
+      "spring_initial_length": 0.3099999999999996,
+      "spring_final_length": 1.1599999999999997,
+      "inner_grip_axial_travel": [
+        -0.004320524529776826,
+        0.004320524529776826
+      ],
+      "outer_carriage_travel": [
+        0.8543205245297769,
+        0.8543205245297769
+      ],
+      "support_connections": "bed-foot-leg-guide sleeve-stem-grip; spring contacts grip face and pull crosshead; shared ordinary force and spring extension"
+    },
+    {
+      "case_id": "tensioned_elastic_rod_lateral_instability_00000098",
+      "head_sha": "2bdae9a5a97517e4ee3341f16f5b84a2c6415cb7",
+      "branch": "counterfactual",
+      "frames": 120,
+      "status": "PASS",
+      "minimum_inner_support_gap": 0.02112998813156053,
+      "minimum_outer_support_gap": 0.4338700118684393,
+      "minimum_exposed_piston": 0.1588700118684394,
+      "spring_initial_length": 0.3099999999999996,
+      "spring_final_length": 1.1599999999999997,
+      "inner_grip_axial_travel": [
+        0.01889346413577364,
+        -0.01889346413577364
+      ],
+      "outer_carriage_travel": [
+        0.8311065358642264,
+        0.8311065358642264
+      ],
+      "support_connections": "bed-foot-leg-guide sleeve-stem-grip; spring contacts grip face and pull crosshead; shared ordinary force and spring extension"
+    }
+  ],
+  "visual_inspection_still_required": true
+}

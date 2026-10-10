@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "reports": [
+    {
+      "status": "PASS",
+      "case_id": "tensioned_elastic_rod_lateral_instability_00000042",
+      "head_sha": "2bdae9a5a97517e4ee3341f16f5b84a2c6415cb7",
+      "first_changed_frame": 32,
+      "mask_end_frame": 120,
+      "minimum_target_border_px": 625,
+      "physical_witnesses": {
+        "initial_bow": 0.14306830774382678,
+        "true_bow": 0.09971306645095258,
+        "cf_bow": 0.2531286407357162,
+        "max_tensile_stress": 258473.8425647575,
+        "evidence_frame": 48
+      },
+      "all_120_frames_each_stream_audited": true,
+      "visual_inspection": "PENDING",
+      "browser_playback": "PENDING"
+    },
+    {
+      "status": "PASS",
+      "case_id": "tensioned_elastic_rod_lateral_instability_00000098",
+      "head_sha": "2bdae9a5a97517e4ee3341f16f5b84a2c6415cb7",
+      "first_changed_frame": 36,
+      "mask_end_frame": 120,
+      "minimum_target_border_px": 665,
+      "physical_witnesses": {
+        "initial_bow": 0.1449689420593321,
+        "true_bow": 0.09844420892253981,
+        "cf_bow": 0.2748747479319911,
+        "max_tensile_stress": 385524.87575136864,
+        "evidence_frame": 50
+      },
+      "all_120_frames_each_stream_audited": true,
+      "visual_inspection": "PENDING",
+      "browser_playback": "PENDING"
+    }
+  ],
+  "note": "Automated results retain their original PENDING visual fields; the separate contributor review records the subsequent actual inspections."
+}

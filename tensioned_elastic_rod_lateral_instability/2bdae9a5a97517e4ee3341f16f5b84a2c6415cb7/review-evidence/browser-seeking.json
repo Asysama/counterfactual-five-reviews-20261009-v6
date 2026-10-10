@@ -1,0 +1,70 @@
+{
+  "generator_name": "tensioned_elastic_rod_lateral_instability",
+  "head_sha": "2bdae9a5a97517e4ee3341f16f5b84a2c6415cb7",
+  "streams": [
+    {
+      "error": null,
+      "paused": true,
+      "readyState": 4,
+      "src": "https://asysama.github.io/counterfactual-five-reviews-20261009-v6/tensioned_elastic_rod_lateral_instability/2bdae9a5a97517e4ee3341f16f5b84a2c6415cb7/tensioned_elastic_rod_lateral_instability_00000042/true/video_browser.mp4",
+      "time": 2,
+      "expected_time": 2
+    },
+    {
+      "error": null,
+      "paused": true,
+      "readyState": 4,
+      "src": "https://asysama.github.io/counterfactual-five-reviews-20261009-v6/tensioned_elastic_rod_lateral_instability/2bdae9a5a97517e4ee3341f16f5b84a2c6415cb7/tensioned_elastic_rod_lateral_instability_00000042/counterfactual_negative_tensile_geometric_stiffness/video_browser.mp4",
+      "time": 2,
+      "expected_time": 2
+    },
+    {
+      "error": null,
+      "paused": true,
+      "readyState": 4,
+      "src": "https://asysama.github.io/counterfactual-five-reviews-20261009-v6/tensioned_elastic_rod_lateral_instability/2bdae9a5a97517e4ee3341f16f5b84a2c6415cb7/tensioned_elastic_rod_lateral_instability_00000042/counterfactual_negative_tensile_geometric_stiffness/mask_browser.mp4",
+      "time": 2,
+      "expected_time": 2
+    },
+    {
+      "error": null,
+      "paused": true,
+      "readyState": 4,
+      "src": "https://asysama.github.io/counterfactual-five-reviews-20261009-v6/tensioned_elastic_rod_lateral_instability/2bdae9a5a97517e4ee3341f16f5b84a2c6415cb7/tensioned_elastic_rod_lateral_instability_00000042/counterfactual_negative_tensile_geometric_stiffness/mask_overlay_browser.mp4",
+      "time": 2,
+      "expected_time": 2
+    },
+    {
+      "error": null,
+      "paused": true,
+      "readyState": 4,
+      "src": "https://asysama.github.io/counterfactual-five-reviews-20261009-v6/tensioned_elastic_rod_lateral_instability/2bdae9a5a97517e4ee3341f16f5b84a2c6415cb7/tensioned_elastic_rod_lateral_instability_00000098/true/video_browser.mp4",
+      "time": 2.083333,
+      "expected_time": 2.0833333333333335
+    },
+    {
+      "error": null,
+      "paused": true,
+      "readyState": 4,
+      "src": "https://asysama.github.io/counterfactual-five-reviews-20261009-v6/tensioned_elastic_rod_lateral_instability/2bdae9a5a97517e4ee3341f16f5b84a2c6415cb7/tensioned_elastic_rod_lateral_instability_00000098/counterfactual_negative_tensile_geometric_stiffness/video_browser.mp4",
+      "time": 2.083333,
+      "expected_time": 2.0833333333333335
+    },
+    {
+      "error": null,
+      "paused": true,
+      "readyState": 4,
+      "src": "https://asysama.github.io/counterfactual-five-reviews-20261009-v6/tensioned_elastic_rod_lateral_instability/2bdae9a5a97517e4ee3341f16f5b84a2c6415cb7/tensioned_elastic_rod_lateral_instability_00000098/counterfactual_negative_tensile_geometric_stiffness/mask_browser.mp4",
+      "time": 2.083333,
+      "expected_time": 2.0833333333333335
+    },
+    {
+      "error": null,
+      "paused": true,
+      "readyState": 4,
+      "src": "https://asysama.github.io/counterfactual-five-reviews-20261009-v6/tensioned_elastic_rod_lateral_instability/2bdae9a5a97517e4ee3341f16f5b84a2c6415cb7/tensioned_elastic_rod_lateral_instability_00000098/counterfactual_negative_tensile_geometric_stiffness/mask_overlay_browser.mp4",
+      "time": 2.083333,
+      "expected_time": 2.0833333333333335
+    }
+  ]
+}
